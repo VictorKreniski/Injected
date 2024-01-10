@@ -1,0 +1,32 @@
+{
+  "configurations" : [
+    {
+      "id" : "2C9C1D64-F817-4CEA-A748-A005A960E927",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : {
+      "targets" : [
+        {
+          "containerPath" : "container:",
+          "identifier" : "Injected",
+          "name" : "Injected"
+        }
+      ]
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:",
+        "identifier" : "InjectedTests",
+        "name" : "InjectedTests"
+      }
+    }
+  ],
+  "version" : 1
+}
